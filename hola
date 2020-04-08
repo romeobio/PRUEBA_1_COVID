@@ -1,0 +1,22 @@
+#hola mundo!
+#que carajo, llego PerÚ!
+#crear una carpeta en tu carpeta personal GITHUB, entrar
+#abrir un terminal con la ruta de la caperta github
+#copiar el de la pagina web de git hub el respositorio a clonar
+#para clonar un respositorio digitar en la terminal:
+git clone <pegar el link de github> enter
+#en el explorador abrir la carpeta para github/ y se creo una carpeta que clonaste, entrar
+"creas uh archivo, ejm hola.txt
+abres escribes algo y lo cierras
+#para ver el estado de la carpeta github,
+git status 
+#para agregar a la zona staging el archivo hola.txt escribes en la terminal: 
+git add hola.txt
+#si vuelves a editar o escribir en el archivo hola.txt, para ver las diferencias entre el archivo en la carpeta y el de la zona staging puedes hacer escribir en el terminal : 
+git diff
+#para actualizar todos los archivos en la zona staging puedes escribir en la terminal: 
+git add .
+#para subir nuestro archivo al repositorio en el internet escribimos en la temrinal:
+git commit -m "archivo para leer v.1"
+git push # nos pide usuario y pass de github en internet.
+
